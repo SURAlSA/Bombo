@@ -1,0 +1,10 @@
+// example metadata format
+ProjectName: <Project Name>
+SourceDir: src/
+ObjectDir: obj/
+MainFile: src/main.cpp
+UtilHeader: src/util.h
+UtilSource: src/util.cpp
+OtherHeader: src/example1.h, src/example2.h
+OtherSource: src/example1.cpp, src/example2.cpp 
+MakeFile: Makefile

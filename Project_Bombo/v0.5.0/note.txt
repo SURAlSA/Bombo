@@ -1,0 +1,2 @@
+current issues:
+- makefile does not function as intended, need to correct errors with its generation. (fixed)
