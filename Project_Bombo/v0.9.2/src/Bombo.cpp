@@ -103,7 +103,7 @@ void Bombo::handleCommand(string& command)
 void Bombo::createProject()
 {
     // get project name
-   string projectName = promptAndReturnProjectName();
+    projectName = promptAndReturnProjectName();
 
 
     // creates directories
@@ -612,15 +612,12 @@ void Bombo::addLibrary()
 void Bombo::loadProject()
 {
     projectLoaded = false;
-    string tempProjectName;
-    cout << "Enter the name of the project: ";
-    getline(cin, tempProjectName);
-    string metaData = tempProjectName + "/.PROJECT";
+    projectName = promptAndReturnProjectName();
+    string metaData = projectName + "/.PROJECT";
     string Key;
 
     if (filesystem::exists(metaData))
     {
-        projectName = tempProjectName;
         cout << "Meta data found." << endl;
         if (!UsersEnabled())
         {
@@ -649,7 +646,7 @@ void Bombo::loadProject()
     else
     {
         cout << "Cant find meta data." << endl;
-        cout << "Failed to load project " << tempProjectName << "." << endl;
+        cout << "Failed to load project " << projectName << "." << endl;
     }
 }
 
@@ -1016,16 +1013,16 @@ bool Bombo::verifyUser(string &userName, string &Key)
         
         string storedKey = decryptKey(KeyLocation);
 
-        if (storedKey == Key)
+        if (storedKey == Key) // temporarily removing the generation of new key as it may be problematic with People remembering their keys
         {
-            cout << "Generating a new key..." << endl;
-            char Key[16];
-            Generate(Key, 16);
-            cout << "Key: ";
-            OutputPassword(Key, 16);
-            Key[16] = 0;
-            buildFile(KeyLocation, Key);
-            encryptKey(KeyLocation);
+           // cout << "Generating a new key..." << endl;
+           // char Key[16];
+           // Generate(Key, 16);
+           // cout << "Key: ";
+           // OutputPassword(Key, 16);
+           // Key[16] = 0;
+           // buildFile(KeyLocation, Key);
+           // encryptKey(KeyLocation);
             return true;
         }
         else
