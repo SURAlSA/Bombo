@@ -1,0 +1,5 @@
+- code is being refactored and new remove and delete functions
+
+- new documentation and future ideas for additions
+
+- multiple bugs fixed in the create Functions

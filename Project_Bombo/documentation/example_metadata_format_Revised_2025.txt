@@ -1,0 +1,16 @@
+ProjectName: new_project
+SourceDir: src/
+ObjectDir: obj/
+MainFile: src/main.cpp
+UtilHeader: src/util.h
+UtilSource: src/util.cpp
+OtherHeader: src/new_file.h
+OtherSource: src/new_file.cpp
+MakeFile: Makefile
+Functions: getRandomInt new_function getRandomDouble
+Classes: new_class
+Included Libraries:
+UsersEnabled: false
+Users:
+BackupsEnabled: false
+BackupDestination:
