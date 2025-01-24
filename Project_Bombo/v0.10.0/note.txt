@@ -1,0 +1,3 @@
+- fixed multiple issues regarding backups being unencrypted and the create functions
+- added DeleteFile and several helper functions, plan to refactor this however
+- minor issue with DeleteFile, upcoming bug fix release expected
