@@ -32,13 +32,13 @@
 	git clone https://github.com/SURAlSA/Bombo.git
 
 2. Compile the code:
-	Ensure your terminal is in same directory as Makefile
-	make clean
-	make
+- Ensure your terminal is in same directory as Makefile
+- make clean
+- make
 	
 3. Launch Bombo
-	./Bombo.exe
-	type "help" for some basic functions
+- ./Bombo.exe
+- type "help" for some basic functions
 	
 ## List of callable commands:
 	// ==== Generic Operations ==== 
