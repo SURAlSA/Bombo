@@ -6,16 +6,17 @@
 int main()
 {
     UserManager UserManager;
+    vector<string> commandHistory; // Stores last 5 commands
+    int historyIndex = -1; // Tracks history navigation
     string command;
-    while(true)
+    while (true) 
     {
-        cout << "Bombo > ";
-        getline(cin, command);
-        if (command == "exit")
+        handleInput(command, commandHistory, historyIndex);
+        if (command == "exit") 
         {
-            if (projectLoaded)
+            if (projectLoaded) 
             {
-                if (UserManager.UsersEnabled())
+                if (UserManager.UsersEnabled()) 
                 {
                     logEvent(userName + " logged out.", projectName);
                     encryptSourceCodeFiles(projectName);
@@ -25,8 +26,6 @@ int main()
         }
         handleCommand(command);
     }
-
-
     return 0;
 }
 // future additions
