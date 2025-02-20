@@ -52,10 +52,14 @@
 	void createStruct(); 
 	void addLibrary(); 
 	void loadProject(); 
+	void logCommment();
+	void mergeProjects(); // TODO
 	 
 	// ==== User Related Operations ==== 
 	void enableUsers(); 
-	void createUser(); 
+	void createUser();
+	void deleteUser(); // TODO
+	void enablePermissions(); // TODO 
 	 
 	// ==== Bombo Personality Functions ==== 
 	void joke(); 
@@ -67,8 +71,8 @@
 	bool BackupsEnabled(); 
 	 
 	 //  ==== Delete and Remove Operations ==== 
-	void deleteFile(); // TODO 
-	void deleteFunction(); // TODO 
+	void deleteFile();
+	void deleteFunction(); 
 	void deleteClass(); // TODO 
 	void deleteStruct(); // TODO 
 	void deleteUser(); // TODO 
