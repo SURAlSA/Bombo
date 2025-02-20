@@ -15,7 +15,7 @@ class BackupManager
 	protected:
 	public:
 		void enableBackups();
-		void changeDestinationDirectory(); // The Backup Related Operations use teh Absolute File Path
+		void changeDestinationDirectory(); // The Backup Related Operations use the Absolute File Path
 		void createBackup();
 		bool BackupsEnabled();
 };

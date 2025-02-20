@@ -29,12 +29,12 @@ class ProjectManager
 		void addLibrary();
 		void loadProject();
 		void deleteFile();
-		void deleteFunction(); // TODO
+		void deleteFunction();
 		void deleteClass(); // TODO
 		void deleteStruct(); // TODO
 		void deleteVariable(); // TODO
 		void removeLibrary(); // TODO
-		void logComment(); // Future Additions
+		void logComment();
 		void mergeProjects();  // Future Additions
 };
 

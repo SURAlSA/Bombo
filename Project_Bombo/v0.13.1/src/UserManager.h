@@ -20,8 +20,8 @@ class UserManager
 		void createUser();
 		bool UsersEnabled();
 		bool verifyUser(string &userName, string &Key);
-		void deleteUser();
-		void enablePermissions();
+		void deleteUser(); // TODO
+		void enablePermissions(); // TODO
 };
 
 // variables
