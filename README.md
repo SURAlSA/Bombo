@@ -1,6 +1,6 @@
 # Bombo
 
-**Bombo** is a C++ Terminal-Based Development Tool designed to streamline code organization and ensure consistency across large-scale projects. It provides a structured format for development, enabling efficient collaboration and project cohesion.
+**Bombo** is a C++ Terminal-Based Development Tool designed to streamline code organization and ensure consistency across large-scale projects. It provides a structured format for development, enabling efficient collaboration and project cohesion. (Developed for Linux operation systems)
 
 ---
 
