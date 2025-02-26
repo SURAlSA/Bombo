@@ -1,0 +1,4 @@
+- added logComment functionality 
+- streamlined errors and allowed for more reusable error prompt functions
+- a few formatting fixes
+- added a initial warning for delete functions, necessary to warn of the risks of using such functions without backups. 
