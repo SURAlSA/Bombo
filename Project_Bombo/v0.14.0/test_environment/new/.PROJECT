@@ -1,0 +1,18 @@
+ProjectName: new
+SourceDir: src/
+ObjectDir: obj/
+MainFile: src/main.cpp
+UtilHeader: src/util.h
+UtilSource: src/util.cpp
+OtherHeader:   src/newfile.h
+OtherSource:   src/newfile.cpp
+MakeFile: Makefile
+Functions:   
+Classes:   
+Variables:    
+Structs:     
+Included Libraries:
+UsersEnabled: true
+Users: Surai
+BackupsEnabled: false
+BackupDestination:

@@ -73,8 +73,9 @@
 	 //  ==== Delete and Remove Operations ==== 
 	void deleteFile();
 	void deleteFunction(); 
-	void deleteClass(); // TODO 
-	void deleteStruct(); // TODO 
+	void deleteClass(); 
+	void deleteStruct();
+	void deleteVariable(); 
 	void deleteUser(); // TODO 
 	void removeLibrary(); // TODO 
 

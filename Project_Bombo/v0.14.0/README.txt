@@ -1,0 +1,1 @@
+- delete functionality almost fully implemented, just missing deleteUser()
