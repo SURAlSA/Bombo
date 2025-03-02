@@ -1,0 +1,5 @@
+to create the package of the installer, simply run:
+    tar -czvf bombo-installer.tar.gz bombo_installer
+
+
+- First release version complete some other functionality will be included in later releases these include but not limited to: RemoveLibrary(), enablePermissions(), mergeProjects(). 
