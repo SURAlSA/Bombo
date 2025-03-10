@@ -53,13 +53,13 @@
 	void addLibrary(); 
 	void loadProject(); 
 	void logCommment();
+ 	void setWorkEnvironment()
 	void mergeProjects(); // TODO
 	 
 	// ==== User Related Operations ==== 
 	void enableUsers(); 
 	void createUser();
-	void deleteUser(); // TODO
-	void enablePermissions(); // TODO 
+	void enableAdminPermissions(); // TODO 
 	 
 	// ==== Bombo Personality Functions ==== 
 	void joke(); 
