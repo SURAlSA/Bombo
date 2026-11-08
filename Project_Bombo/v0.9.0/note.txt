@@ -1,1 +1,0 @@
-added Addlibrary function and encryption functionality ensuring security of source code and header files within the project. 

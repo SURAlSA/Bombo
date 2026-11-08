@@ -1,2 +1,0 @@
-bug fixing setWorkEnvironment 
-- fixed bug in which File not Found Error would not display in setWorkEnvironment
