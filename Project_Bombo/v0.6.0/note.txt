@@ -1,3 +1,0 @@
-features added:
-	- compile from application
-	- clean from application
